@@ -11,7 +11,7 @@ body {
   background: linear-gradient(315deg, #d7e28e 0%, #d7e1ec 74%);
 }
 .wrapper {
-  display: flex;
+  display: inline-flex;
 }
 .wrapper .icon {
   margin: 0 2px;
@@ -27,8 +27,8 @@ body {
 }
 .wrapper .icon span {
   display: block;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background: #fff;
   border-radius: 50%;
   position: relative;
@@ -37,7 +37,7 @@ body {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon span i {
-  line-height: 80px;
+  line-height: 60px;
   font-size: 25px;
 }
 .wrapper .icon .tooltip {
@@ -46,17 +46,17 @@ body {
   z-index: 1;
   background: #fff;
   color: #fff;
-  padding: 20px 30px;
+  padding: 10px 18px;
   font-size: 20px;
   font-weight: 500;
   border-radius: 25px;
-  opacity: 0.5;
+  opacity: 0;
   pointer-events: none;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon:hover .tooltip {
-  top: -5px;
+  top: -70px;
   opacity: 1;
   pointer-events: auto;
 }
