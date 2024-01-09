@@ -13,6 +13,14 @@ body {
   place-items: center;
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .wrapper {
   display: inline-flex;
 }
