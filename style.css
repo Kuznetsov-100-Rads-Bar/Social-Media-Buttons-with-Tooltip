@@ -30,8 +30,8 @@ body {
 }
 .wrapper .icon span {
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 20px;
+  width: 20px;
   background: #fff;
   border-radius: 50%;
   position: relative;
@@ -40,8 +40,8 @@ body {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon span i {
-  line-height: 60px;
-  font-size: 25px;
+  line-height: 18px;
+  font-size: 8px;
 }
 .wrapper .icon .tooltip {
   position: absolute;
