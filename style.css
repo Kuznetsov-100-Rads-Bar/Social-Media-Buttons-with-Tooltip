@@ -66,8 +66,8 @@ body {
 .icon .tooltip:before {
   position: absolute;
   content: "";
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
   background: #fff;
   left: 50%;
   bottom: -6px;
