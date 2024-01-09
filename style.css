@@ -40,8 +40,8 @@ body {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon span i {
-  line-height: 20px;
-  font-size: 5px;
+  line-height: 50px;
+  font-size: 25px;
 }
 .wrapper .icon .tooltip {
   position: absolute;
