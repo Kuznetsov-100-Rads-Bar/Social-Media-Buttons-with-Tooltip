@@ -58,11 +58,11 @@ body {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-/* .wrapper .icon:hover .tooltip {
+.wrapper .icon:hover .tooltip {
   top: -70px;
   opacity: 1;
   pointer-events: auto;
-} */
+}
 .icon .tooltip:before {
   position: absolute;
   content: "";
@@ -71,7 +71,7 @@ body {
   background: #fff;
   left: 50%;
   bottom: -6px;
-  transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(120deg);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon:hover span {
