@@ -93,7 +93,7 @@ body {
   background: #46c1f6;
 }
 .wrapper .instagram:hover span,
-.wrapper .instagram:hover .tooltip span {
+.wrapper .instagram:hover .tooltip {
   background: #d6249f;
   background: radial-gradient(
     circle at 30% 107%,
