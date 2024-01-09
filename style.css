@@ -93,9 +93,20 @@ body {
   background: #46c1f6;
 }
 .wrapper .instagram:hover span,
-.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
 .wrapper .instagram:hover .tooltip:before {
-  background: #e1306c;
+  background: #ffa724;
 }
 .wrapper .github:hover span,
 .wrapper .github:hover .tooltip,
